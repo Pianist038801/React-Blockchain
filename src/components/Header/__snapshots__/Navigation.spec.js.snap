@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Header/Navigation renders correctly 1`] = `
+<div
+  className="header-menu active"
+>
+  <div
+    className="logo-holder"
+  >
+    <span
+      className="big-logo"
+    />
+    <i
+      className="close-menu"
+      onClick={[Function]}
+    >
+       
+    </i>
+  </div>
+  <ul>
+    <li>
+      <a
+        href="/people"
+        onClick={[Function]}
+      >
+        People
+      </a>
+    </li>
+    <li>
+      <a
+        href="/organisations"
+        onClick={[Function]}
+      >
+        Organisations
+      </a>
+    </li>
+    <li>
+      <a
+        href="http://google.co.uk"
+      >
+        Intelligent Profile
+      </a>
+    </li>
+    <li>
+      <a
+        href="http://appii.io/contact-us/"
+      >
+        Contact
+      </a>
+    </li>
+    <li>
+      APPII Ltd © 2017
+    </li>
+  </ul>
+</div>
+`;

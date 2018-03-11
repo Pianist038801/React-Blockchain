@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/OrgAccreditationQRCode when data has loaded renders correctly 1`] = `
+<div>
+  <div
+    className="Layout-main"
+  >
+    <header>
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12 col-md-6"
+          >
+            <div
+              className="header-left"
+            >
+              <h1
+                className="logo"
+              >
+                <a
+                  href="http://appii.io"
+                >
+                  APPII
+                </a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="container OrgAccreditationQRCode"
+    >
+      <div
+        className="PageTitle container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12"
+          >
+            <p
+              className="PageTitle-type1"
+            >
+              Awesome Workshop
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="ContentCard col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4"
+        >
+          <div
+            className="ContentCard-wrapper"
+          >
+            <div
+              className="text-center"
+            >
+              <img
+                alt="Awesome Workshop"
+                src="base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          APPII Ltd © 2017
+        </div>
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          <ul
+            className="Footer-nav"
+          >
+            <li>
+              <a
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-of-use"
+                onClick={[Function]}
+              >
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cookies"
+                onClick={[Function]}
+              >
+                Cookies
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.linkedin.com/company/10535440/"
+              >
+                <img
+                  alt="linkedin"
+                  src="linkedin_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.facebook.com/appii.io"
+              >
+                <img
+                  alt="facebook"
+                  src="facebook_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://twitter.com/appii_io"
+              >
+                <img
+                  alt="twitter"
+                  src="twitter_logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`containers/OrgAccreditationQRCode when request is pending renders correctly 1`] = `
+<div>
+  <div
+    className="Layout-main"
+  >
+    <header>
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12 col-md-6"
+          >
+            <div
+              className="header-left"
+            >
+              <h1
+                className="logo"
+              >
+                <a
+                  href="http://appii.io"
+                >
+                  APPII
+                </a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="LoadingIndicator LoadingIndicator-block"
+    >
+      <svg
+        height="80px"
+        version="1.1"
+        viewBox="0 0 50 50"
+        width="80px"
+        x="0px"
+        xmlSpace="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        y="0px"
+      >
+        <path
+          d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"
+          fill="#000"
+        >
+          <animateTransform
+            attributeName="transform"
+            attributeType="xml"
+            dur="0.6s"
+            from="0 25 25"
+            repeatCount="indefinite"
+            to="360 25 25"
+            type="rotate"
+          />
+        </path>
+      </svg>
+    </div>
+  </div>
+  <footer
+    className="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          APPII Ltd © 2017
+        </div>
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          <ul
+            className="Footer-nav"
+          >
+            <li>
+              <a
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-of-use"
+                onClick={[Function]}
+              >
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cookies"
+                onClick={[Function]}
+              >
+                Cookies
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.linkedin.com/company/10535440/"
+              >
+                <img
+                  alt="linkedin"
+                  src="linkedin_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.facebook.com/appii.io"
+              >
+                <img
+                  alt="facebook"
+                  src="facebook_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://twitter.com/appii_io"
+              >
+                <img
+                  alt="twitter"
+                  src="twitter_logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

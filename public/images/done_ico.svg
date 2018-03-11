@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="16.5" cy="16.5" r="16.5"></circle>
+        <filter x="-21.2%" y="-15.2%" width="142.4%" height="142.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Edit-Profile-View-with-Interactions" transform="translate(-282.000000, -679.000000)">
+            <g id="Group-16" transform="translate(180.000000, 525.000000)">
+                <g id="Group-15" transform="translate(106.000000, 156.000000)">
+                    <g id="Oval-4-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#72D371" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <polygon id="+-copy" fill="#FFFFFF" points="9 16.9478093 11.5188832 14.5186327 14.8681132 17.5021976 21.3703109 11 23.6656443 13.2953334 14.685895 21.9248251"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/SettingsAccount/components/FormerNames when all inputs are invalid renders correctly 1`] = `
+<div>
+  <div
+    id="notification-wrapper"
+  />
+  <h2
+    className="form-group"
+  >
+    Add new former names
+  </h2>
+  <form>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group has-error"
+        >
+          <label>
+            First Name
+          </label>
+          <input
+            name="first_name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group has-error"
+        >
+          <label>
+            Last Name
+          </label>
+          <input
+            name="last_name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group has-error"
+        >
+          <label>
+            Start Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            isValidDate={[Function]}
+            name="start_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group has-error"
+        >
+          <label>
+            End Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            isValidDate={[Function]}
+            name="end_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="form-btn save"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`containers/SettingsAccount/components/FormerNames when end_date is before start_date renders correctly 1`] = `
+<div>
+  <div
+    id="notification-wrapper"
+  />
+  <h2
+    className="form-group"
+  >
+    Add new former names
+  </h2>
+  <form>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            First Name
+          </label>
+          <input
+            name="first_name"
+            onChange={[Function]}
+            type="text"
+            value="John"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Last Name
+          </label>
+          <input
+            name="last_name"
+            onChange={[Function]}
+            type="text"
+            value="Doe"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group has-error"
+        >
+          <label>
+            Start Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            isValidDate={[Function]}
+            name="start_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value={"2016-10-29T23:00:00.000Z"}
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group has-error"
+        >
+          <label>
+            End Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            isValidDate={[Function]}
+            name="end_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value={"2016-08-31T23:00:00.000Z"}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group has-error message"
+    >
+      End Date can not be earlier than Start Date
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="form-btn save"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`containers/SettingsAccount/components/FormerNames when first render renders correctly 1`] = `
+<div>
+  <div
+    id="notification-wrapper"
+  />
+  <h2
+    className="form-group"
+  >
+    Add new former names
+  </h2>
+  <form>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            First Name
+          </label>
+          <input
+            name="first_name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Last Name
+          </label>
+          <input
+            name="last_name"
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Start Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            isValidDate={[Function]}
+            name="start_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            End Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            isValidDate={[Function]}
+            name="end_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="form-btn save"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Add
+      </button>
+    </div>
+  </form>
+</div>
+`;

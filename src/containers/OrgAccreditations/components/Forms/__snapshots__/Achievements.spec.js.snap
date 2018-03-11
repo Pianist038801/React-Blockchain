@@ -1,0 +1,1565 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/OrgAccreditations/components/Forms/Achievements when all fields are empty renders correctly 1`] = `
+<form>
+  <div
+    className="form-group "
+  >
+    <label>
+      Name
+    </label>
+    <input
+      name="name"
+      onChange={[Function]}
+      placeholder="Name"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Description
+    </label>
+    <textarea
+      className="form-textarea"
+      defaultValue=""
+      name="description"
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label>
+          Date
+        </label>
+        <DateTimeMock
+          dateFormat="DD/MM/YYYY"
+          inputProps={
+            Object {
+              "placeholder": "DD/MM/YYYY",
+            }
+          }
+          name="award_date"
+          onChange={[Function]}
+          timeFormat={false}
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group "
+      >
+        <label>
+          Grade
+        </label>
+        <input
+          name="award_grade"
+          onChange={[Function]}
+          placeholder="Grade"
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="separator"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Accreditation Type
+          </label>
+          <div
+            className="Select is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-2--value"
+              >
+                <div
+                  className="Select-placeholder"
+                >
+                  Select Type
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-2--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Status
+          </label>
+          <div
+            className="Select is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-3--value"
+              >
+                <div
+                  className="Select-placeholder"
+                >
+                  Select status
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-3--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Location
+          </label>
+          <input
+            name="award_location"
+            onChange={[Function]}
+            placeholder="Location"
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Accreditation Link
+          </label>
+          <input
+            name="link"
+            onChange={[Function]}
+            placeholder="Accreditation Link"
+            required={false}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Accreditation Delivery Type
+          </label>
+          <div
+            className="Select is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-4--value"
+              >
+                <div
+                  className="Select-placeholder"
+                >
+                  Select Delivery Type
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-4--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Accreditation Level
+          </label>
+          <div
+            className="Select is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-5--value"
+              >
+                <div
+                  className="Select-placeholder"
+                >
+                  Choose one
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-5--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Start Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            name="start_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Start Time
+          </label>
+          <input
+            name="start_time"
+            onChange={[Function]}
+            type="time"
+            value={undefined}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            End Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            name="end_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            End Time
+          </label>
+          <input
+            name="end_time"
+            onChange={[Function]}
+            type="time"
+            value={undefined}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="separator"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <div
+            onClick={[Function]}
+          >
+            <input
+              checked={undefined}
+              name="location_enable"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label>
+              Restrict by location
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="radius"
+          >
+            Location
+          </label>
+          <div>
+            <input
+              placeholder="1 Canada Square, Canary Wharf, London E14 5AB, UK"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Radius
+          </label>
+          <input
+            max="1000"
+            min="10"
+            name="radius"
+            onChange={[Function]}
+            type="range"
+            value={300}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Latitude
+          </label>
+          <input
+            name="lat"
+            onChange={[Function]}
+            placeholder="Latitude"
+            required={false}
+            type="number"
+            value="51.504"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Longitude
+          </label>
+          <input
+            name="lng"
+            onChange={[Function]}
+            placeholder="Longitude"
+            required={false}
+            type="number"
+            value="-0.0195"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-12 center"
+      >
+        <div
+          id="accr-location-map"
+        />
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`containers/OrgAccreditations/components/Forms/Achievements when all fields are valid renders correctly 1`] = `
+<form>
+  <div
+    className="form-group "
+  >
+    <label>
+      Name
+    </label>
+    <input
+      name="name"
+      onChange={[Function]}
+      placeholder="Name"
+      required={false}
+      type="text"
+      value="Achievement 1"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label>
+      Description
+    </label>
+    <textarea
+      className="form-textarea"
+      defaultValue="Lorem ipsum dolor"
+      name="description"
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group"
+      >
+        <label>
+          Date
+        </label>
+        <DateTimeMock
+          dateFormat="DD/MM/YYYY"
+          inputProps={
+            Object {
+              "placeholder": "DD/MM/YYYY",
+            }
+          }
+          name="award_date"
+          onChange={[Function]}
+          timeFormat={false}
+          value={"2016-09-04T00:00:00.000Z"}
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-6"
+    >
+      <div
+        className="form-group "
+      >
+        <label>
+          Grade
+        </label>
+        <input
+          name="award_grade"
+          onChange={[Function]}
+          placeholder="Grade"
+          required={false}
+          type="text"
+          value="grade"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="separator"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Accreditation Type
+          </label>
+          <div
+            className="Select has-value is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <input
+              disabled={false}
+              name="select-accr-type"
+              type="hidden"
+              value="Certification"
+            />
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-6--value"
+              >
+                <div
+                  className="Select-value"
+                  style={undefined}
+                  title={undefined}
+                >
+                  <span
+                    aria-selected="true"
+                    className="Select-value-label"
+                    id="react-select-6--value-item"
+                    role="option"
+                  >
+                    Certification
+                  </span>
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-6--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                aria-label="Clear value"
+                className="Select-clear-zone"
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                title="Clear value"
+              >
+                <span
+                  className="Select-clear"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&times;",
+                    }
+                  }
+                />
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Status
+          </label>
+          <div
+            className="Select has-value is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <input
+              disabled={false}
+              name="select-enabled"
+              type="hidden"
+              value="1"
+            />
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-7--value"
+              >
+                <div
+                  className="Select-value"
+                  style={undefined}
+                  title={undefined}
+                >
+                  <span
+                    aria-selected="true"
+                    className="Select-value-label"
+                    id="react-select-7--value-item"
+                    role="option"
+                  >
+                    Active
+                  </span>
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-7--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                aria-label="Clear value"
+                className="Select-clear-zone"
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                title="Clear value"
+              >
+                <span
+                  className="Select-clear"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&times;",
+                    }
+                  }
+                />
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Location
+          </label>
+          <input
+            name="award_location"
+            onChange={[Function]}
+            placeholder="Location"
+            required={false}
+            type="text"
+            value="London"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Accreditation Link
+          </label>
+          <input
+            name="link"
+            onChange={[Function]}
+            placeholder="Accreditation Link"
+            required={false}
+            type="text"
+            value="http://google.co.uk"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Accreditation Delivery Type
+          </label>
+          <div
+            className="Select has-value is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <input
+              disabled={false}
+              name="select-delivery-type"
+              type="hidden"
+              value="Online"
+            />
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-8--value"
+              >
+                <div
+                  className="Select-value"
+                  style={undefined}
+                  title={undefined}
+                >
+                  <span
+                    aria-selected="true"
+                    className="Select-value-label"
+                    id="react-select-8--value-item"
+                    role="option"
+                  >
+                    Online
+                  </span>
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-8--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                aria-label="Clear value"
+                className="Select-clear-zone"
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                title="Clear value"
+              >
+                <span
+                  className="Select-clear"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&times;",
+                    }
+                  }
+                />
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Accreditation Level
+          </label>
+          <div
+            className="Select has-value is-clearable is-searchable Select--single"
+            style={undefined}
+          >
+            <input
+              disabled={false}
+              name="select-accr-level"
+              type="hidden"
+              value="Level 2"
+            />
+            <div
+              className="Select-control"
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={undefined}
+            >
+              <span
+                className="Select-multi-value-wrapper"
+                id="react-select-9--value"
+              >
+                <div
+                  className="Select-value"
+                  style={undefined}
+                  title={undefined}
+                >
+                  <span
+                    aria-selected="true"
+                    className="Select-value-label"
+                    id="react-select-9--value-item"
+                    role="option"
+                  >
+                    Level 2
+                  </span>
+                </div>
+                <div
+                  className="Select-input"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                    }
+                  }
+                >
+                  <input
+                    aria-activedescendant="react-select-9--value"
+                    aria-describedby={undefined}
+                    aria-expanded="false"
+                    aria-haspopup="false"
+                    aria-label={undefined}
+                    aria-labelledby={undefined}
+                    aria-owns=""
+                    className={undefined}
+                    id={undefined}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    required={false}
+                    role="combobox"
+                    style={
+                      Object {
+                        "boxSizing": "content-box",
+                        "width": "5px",
+                      }
+                    }
+                    tabIndex={undefined}
+                    value=""
+                  />
+                  <div
+                    style={
+                      Object {
+                        "height": 0,
+                        "left": 0,
+                        "overflow": "scroll",
+                        "position": "absolute",
+                        "top": 0,
+                        "visibility": "hidden",
+                        "whiteSpace": "pre",
+                      }
+                    }
+                  >
+                    
+                  </div>
+                </div>
+              </span>
+              <span
+                aria-label="Clear value"
+                className="Select-clear-zone"
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                title="Clear value"
+              >
+                <span
+                  className="Select-clear"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&times;",
+                    }
+                  }
+                />
+              </span>
+              <span
+                className="Select-arrow-zone"
+                onMouseDown={[Function]}
+              >
+                <span
+                  className="Select-arrow"
+                  onMouseDown={[Function]}
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Start Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            name="start_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Start Time
+          </label>
+          <input
+            name="start_time"
+            onChange={[Function]}
+            type="time"
+            value={undefined}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            End Date
+          </label>
+          <DateTimeMock
+            dateFormat="DD/MM/YYYY"
+            inputProps={
+              Object {
+                "placeholder": "DD/MM/YYYY",
+              }
+            }
+            name="end_date"
+            onChange={[Function]}
+            timeFormat={false}
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            End Time
+          </label>
+          <input
+            name="end_time"
+            onChange={[Function]}
+            type="time"
+            value={undefined}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="separator"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <div
+            onClick={[Function]}
+          >
+            <input
+              checked={undefined}
+              name="location_enable"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label>
+              Restrict by location
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="radius"
+          >
+            Location
+          </label>
+          <div>
+            <input
+              placeholder="1 Canada Square, Canary Wharf, London E14 5AB, UK"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group"
+        >
+          <label>
+            Radius
+          </label>
+          <input
+            max="1000"
+            min="10"
+            name="radius"
+            onChange={[Function]}
+            type="range"
+            value={320}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Latitude
+          </label>
+          <input
+            name="lat"
+            onChange={[Function]}
+            placeholder="Latitude"
+            required={false}
+            type="number"
+            value="51.5049489"
+          />
+        </div>
+      </div>
+      <div
+        className="col-md-6"
+      >
+        <div
+          className="form-group "
+        >
+          <label>
+            Longitude
+          </label>
+          <input
+            name="lng"
+            onChange={[Function]}
+            placeholder="Longitude"
+            required={false}
+            type="number"
+            value="-0.019500600000014856"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-12 center"
+      >
+        <div
+          id="accr-location-map"
+        />
+      </div>
+    </div>
+  </div>
+</form>
+`;

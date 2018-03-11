@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-View-w/Interactions" transform="translate(-962.000000, -538.000000)" fill-rule="nonzero" fill="#81A7DD">
+            <g id="Group-20" transform="translate(933.000000, 447.000000)">
+                <g id="Group-19" transform="translate(0.000000, 19.000000)">
+                    <g id="Group-15" transform="translate(29.000000, 0.000000)">
+                        <path d="M24,74.309 C23.117,74.701 22.168,74.965 21.172,75.084 C22.189,74.475 22.97,73.51 23.337,72.36 C22.386,72.924 21.332,73.334 20.21,73.555 C19.313,72.598 18.032,72 16.616,72 C13.437,72 11.101,74.966 11.819,78.045 C7.728,77.84 4.1,75.88 1.671,72.901 C0.381,75.114 1.002,78.009 3.194,79.475 C2.388,79.449 1.628,79.228 0.965,78.859 C0.911,81.14 2.546,83.274 4.914,83.749 C4.221,83.937 3.462,83.981 2.69,83.833 C3.316,85.789 5.134,87.212 7.29,87.252 C5.22,88.875 2.612,89.6 0,89.292 C2.179,90.689 4.768,91.504 7.548,91.504 C16.69,91.504 21.855,83.783 21.543,76.858 C22.505,76.163 23.34,75.296 24,74.309 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

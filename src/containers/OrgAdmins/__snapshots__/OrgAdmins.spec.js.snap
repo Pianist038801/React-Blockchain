@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrgAdmins /> when props.pending is false renders correctly 1`] = `
+<div>
+  <div
+    className="Layout-main"
+  >
+    <header>
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12 col-md-6"
+          >
+            <div
+              className="header-left"
+            >
+              <h1
+                className="logo"
+              >
+                <a
+                  href="http://appii.io"
+                >
+                  APPII
+                </a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="container"
+    >
+      <div
+        className="PageTitle container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12"
+          >
+            <p
+              className="PageTitle-type2"
+            >
+              <span>
+                Contacts for 
+                <a
+                  href="/organisations/id1"
+                  onClick={[Function]}
+                >
+                  name1
+                </a>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="ContentCard col-xs-12 "
+        >
+          <div
+            className="ContentCard-wrapper"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="form-group"
+              >
+                <button
+                  className="btn blue-btn"
+                  onClick={[Function]}
+                >
+                  Manage Contacts
+                </button>
+              </div>
+            </div>
+            <table
+              className="VerificationList"
+            >
+              <thead
+                className="hidden-sm hidden-xs"
+              >
+                <tr
+                  className="row"
+                >
+                  <th
+                    className="col-xs-12 col-md-4 VerificationList-org"
+                  >
+                    User
+                  </th>
+                  <th
+                    className="col-xs-12 col-md-4"
+                  >
+                    Primary Contact?
+                  </th>
+                  <th
+                    className="col-xs-12 col-md-4"
+                  >
+                    Action
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr
+                  className="VerificationItem"
+                >
+                  <td
+                    className="col-xs-12 col-md-4"
+                  >
+                    <div
+                      className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+                    >
+                      <img
+                        alt="undefined undefined"
+                        src="appii-placeholder.png"
+                      />
+                      <span>
+                        undefined undefined
+                      </span>
+                    </div>
+                  </td>
+                  <td
+                    className="col-xs-12 col-md-4"
+                  >
+                    <p>
+                      Yes
+                    </p>
+                  </td>
+                  <td
+                    className="col-xs-12 col-md-4"
+                  >
+                    <button
+                      className="btn red-btn"
+                      data-reject="true"
+                      onClick={[Function]}
+                    >
+                      Remove
+                    </button>
+                  </td>
+                </tr>
+                <tr
+                  className="VerificationItem"
+                >
+                  <td
+                    className="col-xs-12 col-md-4"
+                  >
+                    <div
+                      className="Avatar Avatar-blue Avatar-size-45 Avatar-withLabel"
+                    >
+                      <img
+                        alt="undefined undefined"
+                        src="appii-placeholder.png"
+                      />
+                      <span>
+                        undefined undefined
+                      </span>
+                    </div>
+                  </td>
+                  <td
+                    className="col-xs-12 col-md-4"
+                  >
+                    <p>
+                      Yes
+                    </p>
+                  </td>
+                  <td
+                    className="col-xs-12 col-md-4"
+                  >
+                    <button
+                      className="btn red-btn"
+                      data-reject="true"
+                      onClick={[Function]}
+                    >
+                      Remove
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          APPII Ltd © 2017
+        </div>
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          <ul
+            className="Footer-nav"
+          >
+            <li>
+              <a
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-of-use"
+                onClick={[Function]}
+              >
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cookies"
+                onClick={[Function]}
+              >
+                Cookies
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.linkedin.com/company/10535440/"
+              >
+                <img
+                  alt="linkedin"
+                  src="linkedin_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.facebook.com/appii.io"
+              >
+                <img
+                  alt="facebook"
+                  src="facebook_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://twitter.com/appii_io"
+              >
+                <img
+                  alt="twitter"
+                  src="twitter_logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`<OrgAdmins /> when props.pending is true renders correctly 1`] = `
+<div>
+  <div
+    className="Layout-main"
+  >
+    <header>
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12 col-md-6"
+          >
+            <div
+              className="header-left"
+            >
+              <h1
+                className="logo"
+              >
+                <a
+                  href="http://appii.io"
+                >
+                  APPII
+                </a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="LoadingIndicator LoadingIndicator-block"
+    >
+      <svg
+        height="80px"
+        version="1.1"
+        viewBox="0 0 50 50"
+        width="80px"
+        x="0px"
+        xmlSpace="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        y="0px"
+      >
+        <path
+          d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"
+          fill="#000"
+        >
+          <animateTransform
+            attributeName="transform"
+            attributeType="xml"
+            dur="0.6s"
+            from="0 25 25"
+            repeatCount="indefinite"
+            to="360 25 25"
+            type="rotate"
+          />
+        </path>
+      </svg>
+    </div>
+  </div>
+  <footer
+    className="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          APPII Ltd © 2017
+        </div>
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          <ul
+            className="Footer-nav"
+          >
+            <li>
+              <a
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-of-use"
+                onClick={[Function]}
+              >
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cookies"
+                onClick={[Function]}
+              >
+                Cookies
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.linkedin.com/company/10535440/"
+              >
+                <img
+                  alt="linkedin"
+                  src="linkedin_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.facebook.com/appii.io"
+              >
+                <img
+                  alt="facebook"
+                  src="facebook_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://twitter.com/appii_io"
+              >
+                <img
+                  alt="twitter"
+                  src="twitter_logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

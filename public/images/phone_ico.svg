@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="30px" viewBox="0 0 18 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-View-w/Interactions" transform="translate(-965.000000, -583.000000)" fill-rule="nonzero" fill="#72D371">
+            <g id="Group-20" transform="translate(933.000000, 447.000000)">
+                <g id="Group-19" transform="translate(0.000000, 19.000000)">
+                    <g id="Group-15" transform="translate(29.000000, 0.000000)">
+                        <path d="M5.50000027,117 C4.11875027,117 3.00000027,118.12 3.00000027,119.5 L3.00000027,142.8475 C2.99875027,145.61375 7.37875027,147 11.7562503,147 C16.1287503,147 20.5000003,145.6175 20.5000003,142.8475 L20.5000003,119.5 C20.5000003,118.12 19.3812503,117 18.0000003,117 L5.50000027,117 Z M11.7500003,144.5 C11.0600003,144.5 10.5000003,143.94 10.5000003,143.25 C10.5000003,142.56 11.0600003,142 11.7500003,142 C12.4400003,142 13.0000003,142.56 13.0000003,143.25 C13.0000003,143.94 12.4400003,144.5 11.7500003,144.5 Z M18.0000003,139.5 L5.50000027,139.5 L5.50000027,122 L18.0000003,122 L18.0000003,139.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

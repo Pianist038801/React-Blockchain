@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/Profile when it is another user profile when props.userProfileError !== ""  renders correctly 1`] = `
+<div>
+  <div
+    className="Layout-main"
+  >
+    <header>
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12 col-md-6"
+          >
+            <div
+              className="header-left"
+            >
+              <h1
+                className="logo"
+              >
+                <a
+                  href="http://appii.io"
+                >
+                  APPII
+                </a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="ContentCard col-xs-12 ContentCard-marginTop"
+    >
+      <div
+        className="ContentCard-wrapper"
+      >
+        <h3
+          className="ContentCard-title"
+        >
+          Profile not found
+        </h3>
+        <p>
+          Unfortunately, we cannot find the profile you are looking for.
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          APPII Ltd © 2017
+        </div>
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          <ul
+            className="Footer-nav"
+          >
+            <li>
+              <a
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-of-use"
+                onClick={[Function]}
+              >
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cookies"
+                onClick={[Function]}
+              >
+                Cookies
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.linkedin.com/company/10535440/"
+              >
+                <img
+                  alt="linkedin"
+                  src="linkedin_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.facebook.com/appii.io"
+              >
+                <img
+                  alt="facebook"
+                  src="facebook_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://twitter.com/appii_io"
+              >
+                <img
+                  alt="twitter"
+                  src="twitter_logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`containers/Profile when it is another user profile when user profile is not verified renders correctly 1`] = `
+<div>
+  <div
+    className="Layout-main"
+  >
+    <header>
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12 col-md-6"
+          >
+            <div
+              className="header-left"
+            >
+              <h1
+                className="logo"
+              >
+                <a
+                  href="http://appii.io"
+                >
+                  APPII
+                </a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      className="ContentCard col-xs-12 ContentCard-marginTop"
+    >
+      <div
+        className="ContentCard-wrapper"
+      >
+        <h3
+          className="ContentCard-title"
+        >
+          Unverified profile
+        </h3>
+        <p>
+          Unfortunately, you cannot view this profile until it has been biometrically identified.
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          APPII Ltd © 2017
+        </div>
+        <div
+          className="col-xs-12 col-md-6"
+        >
+          <ul
+            className="Footer-nav"
+          >
+            <li>
+              <a
+                href="/privacy-policy"
+                onClick={[Function]}
+              >
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/terms-of-use"
+                onClick={[Function]}
+              >
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a
+                href="/cookies"
+                onClick={[Function]}
+              >
+                Cookies
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.linkedin.com/company/10535440/"
+              >
+                <img
+                  alt="linkedin"
+                  src="linkedin_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://www.facebook.com/appii.io"
+              >
+                <img
+                  alt="facebook"
+                  src="facebook_logo.svg"
+                />
+              </a>
+            </li>
+            <li
+              className="social-link"
+            >
+              <a
+                href="https://twitter.com/appii_io"
+              >
+                <img
+                  alt="twitter"
+                  src="twitter_logo.svg"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

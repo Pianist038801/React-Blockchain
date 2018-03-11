@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Edit-Profile-View-with-Interactions" transform="translate(-1147.000000, -89.000000)" fill-rule="nonzero" fill="#498DF0">
+            <g id="Group-11" transform="translate(1114.000000, 55.000000)">
+                <path d="M50.4166667,40.4175833 C50.4166667,43.9605 47.5438333,46.83425 44,46.83425 C40.4561667,46.83425 37.5833333,43.9605 37.5833333,40.4175833 C37.5833333,36.8728333 40.4561667,34 44,34 C47.5438333,34 50.4166667,36.8728333 50.4166667,40.4175833 Z M48.9518333,46.99925 C47.5713333,48.0415 45.859,48.6675833 44,48.6675833 C42.1391667,48.6675833 40.4259167,48.0396667 39.0435833,46.9974167 C35.3109167,48.641 33,53.75875 33,56 L55,56 C55,53.7789167 52.6166667,48.6611667 48.9518333,46.99925 L48.9518333,46.99925 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
